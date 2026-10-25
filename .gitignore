@@ -1,0 +1,20 @@
+# environment & secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# runtime data (rag store, logs)
+data/
+logs/
+tmp/
+
+# personal learning notes (never publish)
+.private-notes/
